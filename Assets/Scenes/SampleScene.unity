@@ -211,8 +211,8 @@ Camera:
   m_GameObject: {fileID: 534669902}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.42352945, g: 0.5372549, b: 0.7176471, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 700858078}
   - component: {fileID: 700858077}
   - component: {fileID: 700858081}
+  - component: {fileID: 700858082}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -351,5 +352,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec6c60fb2ed074fe6ad35f0d6e79f368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &700858082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 700858076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bea8241680ef46f9aff220ad76dd67d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
