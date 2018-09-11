@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ExpandCube : MonoBehaviour {
 
+    public float speed = 5f;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -12,7 +14,7 @@ public class ExpandCube : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        transform.localScale = transform.localScale + new Vector3(1, 0, 0);
+        transform.localScale = transform.localScale + new Vector3(speed * Time.deltaTime, speed * Time.deltaTime, speed * Time.deltaTime);
 
 	}
 }

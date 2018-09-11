@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RotateCube : MonoBehaviour {
+public class CameraMove : MonoBehaviour {
+
+    public float speed = 5f;
 
 	// Use this for initialization
 	void Start () {
@@ -12,7 +14,7 @@ public class RotateCube : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        transform.Rotate(1, 2, 3);
+        transform.Translate(speed * Time.deltaTime, 0, 0);
 
 	}
 }
